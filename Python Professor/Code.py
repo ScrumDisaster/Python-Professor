@@ -8,7 +8,7 @@ pygame.font.init() #This is for width counting system.
 
 #API key, can't run the AI without it.
 client = OpenAI(
-  api_key="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" #API
+  api_key="" #API, Insert API Key from google doc between the: "".
 )
 
 screen = pygame.display.set_mode((1440, 900))
